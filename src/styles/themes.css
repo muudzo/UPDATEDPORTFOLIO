@@ -1,0 +1,22 @@
+@layer base {
+    :root {
+        /* Common */
+        --transition-speed: 0.2s;
+        --z-taskbar: 9000;
+        --z-window-base: 100;
+        --z-tooltip: 10000;
+
+        /* Windows 7 Theme Defaults */
+        --win7-bg: #2f6fab;
+        --win7-taskbar-bg: rgba(22, 59, 90, 0.85);
+        --win7-window-bg: rgba(240, 240, 240, 0.9);
+        --win7-glass: rgba(255, 255, 255, 0.4);
+        --win7-text: #1e1e1e;
+
+        /* MacOS Theme Defaults */
+        --mac-bg: #dbdbdb;
+        --mac-taskbar-bg: rgba(255, 255, 255, 0.2);
+        --mac-window-bg: #ffffff;
+        --mac-text: #000000;
+    }
+}
